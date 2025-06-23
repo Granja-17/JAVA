@@ -1,0 +1,56 @@
+/** uma class **/
+.classXpto{}
+
+/** estilos por idenificador de elemento 'unico' **/
+#idXpto{}
+
+/**limite da pagina template **/
+.limite-pagina{padding:0px !important;}
+
+/** localiacao do menu/navbar **/
+#navbarNavAltMarkup{justify-content: flex-end !important;}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-size: 14px !important;
+    padding: 15px 30px !important;
+}
+.carousel-caption{top:10rem !important;}
+.carousel-h2-new{font-size: 5rem;}
+.carousel-p-new{font-size: 2rem;}
+
+.zonadecarroselimagens{background-color: #fff; padding-top: 50px; padding-bottom: 50px;}
+.zonablog{background-color: #ddd; padding-top: 50px; padding-bottom: 50px;}
+.newcard{background-color: transparent;border: 0px;}
+
+/** footer*/
+.footer-link{color: #000; text-decoration: none; transition: all 0.2s ease;}
+.footer-link:hover{color: #333; font-weight: bold; text-decoration: underline;}
+
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .countries-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .country-card {
+      flex: 1 0 calc(20% - 10px); /* 5 por linha */
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      background: #f9f9f9;
+    }
+    .country-card:hover {
+      background-color: #e0e0e0;
+    }
+    .details {
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #fafafa;
+    }
